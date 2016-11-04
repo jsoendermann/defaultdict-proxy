@@ -1,9 +1,14 @@
 {
   "name": "defaultdict-proxy",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Jan Soendermann",
     "email": "jan.soendermann+npm@gmail.com"
+  },
+  "homepage": "https://github.com/jsoendermann/defaultdict-proxy",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsoendermann/defaultdict-proxy.git"
   },
   "license": "MIT",
   "scripts": {
@@ -12,7 +17,7 @@
     "test": "node_modules/jasmine-es6/bin/jasmine.js"
   },
   "engines": {
-    "node": ">=4.1"
+    "node": ">=6.5"
   },
   "main": "lib/defaultdict.js",
   "devDependencies": {
